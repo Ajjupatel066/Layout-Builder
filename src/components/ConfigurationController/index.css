@@ -1,0 +1,33 @@
+/* Write your CSS here */
+.configuration-container {
+  background-color: #475569;
+  height: 20vh;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  padding: 10px 40px 10px 40px;
+}
+
+.configuration-heading {
+  font-size: 20px;
+  color: #fff;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+.check-box-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.label-name {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #fff;
+  margin-left: 10px;
+}
+
+.check-box {
+  width: 18px;
+  height: 18px;
+}

@@ -1,0 +1,61 @@
+/* Write your CSS here */
+.body-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .body-container {
+    flex-direction: row;
+  }
+}
+
+.nav-body-section {
+  width: 100%;
+  height: 50vh;
+  background-color: #e2e8f0;
+
+  padding: 40px;
+  margin: 5px;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-body-section {
+    min-width: 33%;
+    flex-wrap: wrap;
+    flex-grow: 1;
+  }
+}
+
+.item {
+  font-family: 'Roboto';
+  font-size: 20px;
+  margin: 10px;
+}
+
+.left-nav-items {
+  list-style-type: none;
+  font-family: 'Roboto';
+  color: #64748b;
+  font-size: 18px;
+  padding: 0px;
+}
+
+.nav-body-title {
+  font-size: 20px;
+  font-weight: 500;
+  color: #475569;
+  font-family: 'Roboto';
+}
+
+.nav-item {
+  width: 90%;
+  height: 90%;
+  border: 1px solid #475569;
+  height: 10vh;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
